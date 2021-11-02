@@ -35,7 +35,7 @@ jobs:
         with:
           push: true
           tags: calvinch4n/calcha-will-it-work:${{ github.sha }}
-          file: ./amd64/hello-world
+          file: ./amd64/hello-world/Dockerfile
 
 
   deploy:
